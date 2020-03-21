@@ -1,8 +1,8 @@
-site_name: My Docs
+site_name: Digital boardgames
 nav: 
   - Home: index.md
   - GettingStarted:
-    - Allgemeint: gettingStarted.md
+    - Allgemein: gettingStarted.md
     - Discord: Discord.md
     - Brettspielewelt: Brettspielewelt.md
 theme: readthedocs

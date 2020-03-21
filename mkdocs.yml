@@ -1,0 +1,8 @@
+site_name: My Docs
+nav: 
+  - Home: index.md
+  - GettingStarted:
+    - Allgemeint: gettingStarted.md
+    - Discord: Discord.md
+    - Brettspielewelt: Brettspielewelt.md
+theme: readthedocs

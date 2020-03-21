@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Brettspielewelt - My Docs</title>
+  <title>Brettspielewelt - Digital boardgames</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -38,7 +38,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> My Docs</a>
+        <a href=".." class="icon icon-home"> Digital boardgames</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -63,6 +63,20 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#userinterface">Userinterface</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#spiel-auswahlen">Spiel auswählen</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#tisch-bekommen">Tisch bekommen</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tisch-einstellungen">Tisch Einstellungen</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#spieleiter-joinen">Spieleiter joinen</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#spiel-starten">Spiel starten</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#erklarung-der-spielregeln">Erklärung der Spielregeln</a>
+    </li>
+        </ul>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#wichtige-befehle">Wichtige Befehle</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#startbefehle">Startbefehle</a>
@@ -83,7 +97,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">My Docs</a>
+        <a href="..">Digital boardgames</a>
       </nav>
 
       
@@ -126,6 +140,35 @@
 <li>Unter dem Chat ist die Commandozeile. In diesem können wichtige Spielecommandos angebene werden. <a href="https://www.brettspielwelt.de/Hilfe/Kommandos/">Alle Befehle</a></li>
 </ul>
 <p><img alt="Brettspiele Lobby" src="../img/Brettspiele_Lobby.png" /></p>
+<h2 id="spiel-auswahlen">Spiel auswählen</h2>
+<h3 id="tisch-bekommen">Tisch bekommen</h3>
+<p>Auf der linken Seite des Programms könnt ihr die verfügbaren Spiele sehen. Wenn dort das entsprechende Spiel ausgewählt wird, werden nur noch Tische für dieses Spiel angezeigt. Die Hintergrundfarben zeigen euch die verschiedenen Statis an:</p>
+<p><img src="img/freieTische.png" width="200" /> Das zeigt an das es freie Tische gibt.</p>
+<p><img src="img/laufendeSpiele.png" width="200" /> Das zeigt an das die Spiele schon laufen.</p>
+<p><img src="img/mitspielerGesucht.png" width="200" /> Das zeigt an das hier noch Mitspieler gesucht werden</p>
+<p>Hier könnt ihr ein Beispiel sehen, in dem alle verschiedenen Farben existieren.
+<img src="img/farbenLobby.png" /></p>
+<h3 id="tisch-einstellungen">Tisch Einstellungen</h3>
+<p>Wenn der Spielleiter nun einen Tisch hat kann er mehrere Einstellungen treffen. </p>
+<p>In dem Kästchen <em>Players/Spieler</em> folgende Actionen:
+* grüne +: Spielplatz hinzufügen. Solange der nicht offen ist, kann niemand joinen 
+* rote -: Spielplatz löschen, damit kein nicht besetzter Spielplatz gebraucht wird.
+* rote X: Spieler rauswerfen.</p>
+<p>In dem Kästchen <em>Options/Einstellungen</em> gibt es mehr oder weniger Optionen abhängig vom gewählten Spiel. Wenn ihr das Spiel nur mit bekannten Leuten spielen wollt, solltet ihr das Kästchen <em>invisible</em> auswählen. Dann können Leute dem Spielleiter nur joinen, wenn sie ihn kennen.</p>
+<p><img src="img/gameSettings.png" /></p>
+<h3 id="spieleiter-joinen">Spieleiter joinen</h3>
+<p>Nachdem ein Spielleiter nun einen Tisch hat, muss man zu diesem Tisch kommen. Dafür gibt es verschiedene Möglichkeiten:</p>
+<ol>
+<li>Benutzen von Befehlen </li>
+<li>In der Lobby den Tisch des Spielers finden</li>
+</ol>
+<p>Ich empfehle die erste Variante. Dafür benutzt ihr einfach die Befehle aus der Gruppe <a href="#Startbefehle">Startbefehle</a></p>
+<p>Der <em>/hook</em> Befehl führt euch zu dem gewählten Spieler und der <em>/join</em> Befehl lässt euch dem Spiel beitreten.</p>
+<h3 id="spiel-starten">Spiel starten</h3>
+<p>Um das Spiel zu starten müssen nun alle Spieler <em>/start</em> in die Kommdandokonsole eingeben oder über das Fenster <em>Game</em> den <em>Start</em> Button klicken. </p>
+<p>Danach sollte das Spiel beginnen.</p>
+<h3 id="erklarung-der-spielregeln">Erklärung der Spielregeln</h3>
+<p>Wenn man das Spiel nicht kennt oder nicht mehr genau an die Spielregeln erinnert, kann oben unter Taskbar Help/Hilfe klicken und bekommt erstmal eine kurze Erklärung und kann sich auch noch eine längere Erklärung anzeigen lassen.</p>
 <h2 id="wichtige-befehle">Wichtige Befehle</h2>
 <p>Hier werden die wichtigsten Befehle gesammelt. Eine Übersicht über alle Befehle kann hier gefunden werden: <a href="https://www.brettspielwelt.de/Hilfe/Kommandos/">Alle Befehle</a></p>
 <p>Alle Befehle werden in der Commandozeile eingeben. WICHTIG: Die Befehle fangen immer mit '/' an.</p>
@@ -139,6 +182,10 @@
 </code></pre>
 
 <h3 id="spielbefehle">Spielbefehle</h3>
+<p>Dieser Befehl führt dazu das der Spieler den Start des Spiels akzeptiert.</p>
+<pre><code>/start
+</code></pre>
+
 <p>Dieser Befehl führt dazu, dass man ein laufendes Spiel beenden kann. Dafür muss der Spielleiter (Spieler an der Stelle 1) diesen Befehl eingeben. Nachdem das getan wurde, müssen alle Spieler das mit dem zweiten Befehl akzeptieren (auch der Spielleiter).</p>
 <pre><code>/masterreset
 </code></pre>
